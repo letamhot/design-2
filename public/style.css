@@ -187,7 +187,6 @@ input:hover+.slider {
 .title {
     text-align: center;
     margin: 50px;
-    /* color: #595959; */
     font-size: 40px;
 }
 
@@ -251,7 +250,7 @@ button {
     border-radius: 5px;
     border: none;
     background-color: hsl(240, 78%, 98%);
-    color: hsl(232, 13%, 33%);
+    color: hsl(237, 63%, 64%);
     outline: none;
     cursor: pointer;
     text-transform: uppercase;
@@ -262,15 +261,15 @@ button {
 .button:hover {
     background-image: none;
     background-color: white;
-    color: hsl(232, 13%, 33%);
+    color: hsl(237, 63%, 64%);
     border: 1px solid rgb(59, 59, 59);
 }
 
 .button1:hover {
     background-image: none;
-    background-color: hsl(232, 13%, 33%);
+    background-color: hsl(237, 63%, 64%);
     color: white;
-    border: 0.1px solid white;
+    border: 1px solid white;
 }
 
 .title-center {

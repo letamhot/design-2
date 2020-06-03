@@ -33,6 +33,11 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+label .text-title {
+    font-size: 40px;
+    color: rgb(87, 85, 85);
+}
+
 @media only screen and (min-width: 800px) {
     .d-flex {
         display: flex !important;
@@ -110,8 +115,9 @@ body {
 .switch {
     position: relative;
     display: inline-block;
-    width: 50px;
-    height: 25px;
+    width: 30px;
+    height: 5px;
+    padding: 10px;
 }
 
 .switch input {
@@ -175,12 +181,14 @@ input:hover+.slider {
 
 .checkbox-switch {
     margin-top: 30px;
+    font-size: 12px;
 }
 
 .title {
     text-align: center;
     margin: 50px;
-    color: #595959;
+    /* color: #595959; */
+    font-size: 40px;
 }
 
 .annually,
@@ -200,11 +208,14 @@ input:hover+.slider {
 h4 {
     border-bottom: 1px solid rgb(214, 205, 205);
     margin-bottom: 30px;
+    font-size: 12px;
+    color: hsl(232, 13%, 33%);
 }
 
 h1 {
     border-bottom: 1px solid rgb(214, 205, 205);
     font-size: 50px;
+    color: hsl(232, 13%, 33%);
 }
 
 h4:first-child {

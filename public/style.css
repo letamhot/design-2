@@ -191,17 +191,7 @@ input:hover+.slider {
     color: grey;
 }
 
-.d-none {
-    display: none;
-}
-
-.display {
-    margin-top: 20px;
-    font-size: 50px;
-    color: rgb(79, 79, 79);
-}
-
-.mt-10 {
+.text {
     margin-top: 20px;
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -274,9 +264,4 @@ button {
 
 .title-center {
     color: white;
-}
-
-.text-title {
-    font-size: 30px;
-    color: rgb(98, 98, 98);
 }

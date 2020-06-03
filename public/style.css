@@ -37,15 +37,15 @@ body {
     .d-flex {
         display: flex !important;
     }
-    .card-left {
+    .left {
         border-radius: 15px 0px 0px 15px;
         box-shadow: -3px 5px 5px rgba(0, 0, 0, 0.1);
     }
-    .card-right {
+    .right {
         border-radius: 0px 15px 15px 0px;
         box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
     }
-    .card-center {
+    .center {
         margin: -15px 0px !important;
         background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
         border-radius: 8px;
@@ -54,22 +54,22 @@ body {
 }
 
 @media (max-width: 800px) {
-    .card-left,
-    .card-right,
-    .card-center {
+    .left,
+    .right,
+    .center {
         margin-bottom: 50px;
         margin-top: 50px;
         border-radius: 5px;
     }
-    .card-left {
+    .left {
         border-radius: 15px;
         box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
     }
-    .card-right {
+    .right {
         border-radius: 15px;
         box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.1);
     }
-    .card-center {
+    .center {
         margin: -15px 0px !important;
         background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
         border-radius: 15px;
@@ -91,8 +91,8 @@ body {
     width: 300px;
 }
 
-.card-left,
-.card-right {
+.left,
+.right {
     background-color: white;
     text-align: center;
     color: rgb(99, 97, 97);
@@ -229,7 +229,7 @@ button {
     margin-top: 10px;
 }
 
-.btn-outside {
+.button {
     width: 100%;
     height: 37px;
     border-radius: 5px;
@@ -244,7 +244,7 @@ button {
     font-size: 12.3px;
 }
 
-.btn-inside {
+.button1 {
     width: 100%;
     height: 37px;
     border-radius: 5px;
@@ -258,14 +258,14 @@ button {
     font-size: 12.3px;
 }
 
-.btn-outside:hover {
+.button:hover {
     background-image: none;
     background-color: white;
     color: hsl(232, 13%, 33%);
     border: 1px solid rgb(59, 59, 59);
 }
 
-.btn-inside:hover {
+.button1:hover {
     background-image: none;
     background-color: hsl(232, 13%, 33%);
     color: white;
@@ -279,10 +279,4 @@ button {
 .text-title {
     font-size: 30px;
     color: rgb(98, 98, 98);
-}
-
-.dolla {
-    font-size: 32.5px;
-    vertical-align: 15%;
-    margin-right: 7px;
 }
